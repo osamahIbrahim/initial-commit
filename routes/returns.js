@@ -2,6 +2,7 @@ const Joi = require('joi');
 const { Rental } = require('../models/rental');
 const { Movie } = require('../models/movie');
 const auth = require('../middleware/auth');
+const admin = require('../middleware/admin');
 const validate = require('../middleware/validate');
 const express = require('express');
 const router = express.Router();

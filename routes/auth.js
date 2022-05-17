@@ -28,5 +28,4 @@ function validate(req) {
 
   return Joi.validate(req, schema);
 }
-
 module.exports = router; 
